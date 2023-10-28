@@ -1,0 +1,39 @@
+body{
+    background-color: #62757B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.imgcontainer{
+   
+    width:50%;
+    min-height:500px;
+    position: relative;
+    top: 50px;
+    left: 25%;
+    overflow: hidden;
+    border-radius: 15px;
+   
+}
+img{
+    width: 100%;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.btn-container{
+  margin-top: 100px;
+  text-align: center;
+  
+}
+button{
+    font-size: large;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #D2A295;
+}
